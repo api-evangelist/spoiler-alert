@@ -1,8 +1,28 @@
 aid: spoiler-alert
 name: Spoiler Alert
-description: Spoiler Alert is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Spoiler Alert is a Boston-based software company (a Techstars portfolio company)
+  that helps consumer packaged goods (CPG) manufacturers, wholesalers, and retailers
+  manage and sell excess, short-dated, and obsolete inventory. Its purpose-built
+  platform digitizes discounting and liquidation processes, matching surplus inventory
+  with the right buyers at the right price through a secondary marketplace, with
+  automated listing generation, dynamic pricing optimization, freight cost management,
+  and performance analytics to recover margin and reduce food and product waste. The
+  platform is delivered as a closed SaaS application (app.spoileralert.com); no public
+  developer API, SDK, or developer portal is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/spoiler-alert/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/60118651db7c435e1ec881c4/69273168577f2ab88a1b90d4_Open%20Graph%20Image-Spoiler%20Alert.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Consumer Packaged Goods
+- Food Waste
+- Inventory Management
+- Supply Chain
+- Retail
+- Marketplace
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://spoileralert.com/
+- type: Login
+  url: https://app.spoileralert.com/
+- type: Blog
+  url: https://spoileralert.com/blog
+- type: PrivacyPolicy
+  url: https://spoileralert.com/privacy-policy
+- type: TermsOfService
+  url: https://spoileralert.com/terms-and-conditions
+- type: TrustCenter
+  url: https://trust.spoileralert.com/
+- type: DomainSecurity
+  url: security/spoiler-alert-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
