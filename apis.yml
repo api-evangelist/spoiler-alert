@@ -11,6 +11,17 @@ description: >-
   platform is delivered as a closed SaaS application (app.spoileralert.com); no public
   developer API, SDK, or developer portal is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/spoiler-alert/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
